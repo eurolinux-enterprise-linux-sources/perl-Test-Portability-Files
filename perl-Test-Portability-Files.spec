@@ -1,6 +1,6 @@
 Name:           perl-Test-Portability-Files
 Version:        0.05
-Release:        17%{?dist}
+Release:        18%{?dist}
 Summary:        Check file names portability
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -60,6 +60,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.05-18
+- Mass rebuild 2013-12-27
+
 * Wed Oct 24 2012 Jitka Plesnikova <jplesnik@redhat.com> - 0.05-17
 - Specify all dependencies.
 
